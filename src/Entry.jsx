@@ -85,7 +85,7 @@ export default function Entry() {
         console.log(fallFTEFloat);
         if (isNaN(springPayInt) || isNaN(fallPayInt) || isNaN(yearInProgramInt)) {
             setBackpayText(
-                "Please enter your Spring 2024 monthly pay, your current monthly pay, and your year in your program to calculate your estimated backpay."
+                "Please enter your spring 2024 monthly pay, your current monthly pay, and your year in your program to calculate your estimated backpay."
             );
             return;
         };
