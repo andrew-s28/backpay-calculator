@@ -205,7 +205,7 @@ export default function Entry() {
                     </Grid2>
                     <Grid2 size={{xs: 12, sm: 5}} sx={{ display: 'flex', alignItems: 'left', pb: { xs: 2, sm: 2},}} >
                         <FormControl sx={{ margin: {xs: 0, sm:'auto'}, paddingLeft: {xs: 2, sm: 0}}}>
-                        <FormLabel id="demo-row-radio-buttons-group-label" sx={{ textAlign: 'left !important' }}>Fall 2024 FTE</FormLabel>
+                        <FormLabel id="demo-row-radio-buttons-group-label" sx={{ textAlign: 'left !important' }}>Current FTE</FormLabel>
                         <RadioGroup
                             row
                             label="Fall 2024 FTE"
