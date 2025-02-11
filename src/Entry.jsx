@@ -87,6 +87,7 @@ export default function Entry() {
             setBackpayText(
                 "Please enter your Spring 2024 monthly pay, your current monthly pay, and your year in your program to calculate your estimated backpay."
             );
+            return;
         };
         newSalary = newBaseSalary * fallFTEFloat;
         if (newSalary < fallPayInt) {
