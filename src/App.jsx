@@ -1,5 +1,6 @@
 import './App.css'
 import Entry from './Entry'
+import Intro from './Intro'
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
@@ -24,7 +25,7 @@ function App() {
   return (
     <ThemeProvider theme={theme} defaultMode="system">
       <CssBaseline />
-      <h1>Contract Raise Calculator</h1>
+      <h1>New Contract Backpay Calculator</h1>
       <div className="entry">
         <Entry />
       </div>
