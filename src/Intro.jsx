@@ -13,7 +13,7 @@ export default function Intro() {
             <p className="introBottom">
                 Enter your monthly gross pay and FTE from the Spring 2024 semester,
                 your current monthly gross pay and FTE, and the year you are in your program.
-                If you have an FTE other than 0.40 or 0.49, please scale the salary numbers accordingly before entry.
+                If you have an FTE other than 0.40 or 0.49, please scale both salary numbers to an equivalent 0.49 FTE accordingly before entry.
                 The calculator will output the esimated gross pay you are owed by the March 10th deadline.
             </p>
         </Paper>
