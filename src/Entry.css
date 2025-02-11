@@ -1,0 +1,11 @@
+.MuiPaper-root > h2 {
+    margin: 0;
+}
+
+.backpayText {
+    font-weight: 600;
+}
+
+.disclaimer {
+    margin-bottom: 0;
+}
