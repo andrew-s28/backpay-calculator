@@ -5,7 +5,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import CssBaseline from '@mui/material/CssBaseline';
 
 import Calculator from './Calculator'
-import DarkModeToggle from './DarkModeToggle';
 import Navbar from './Navbar';
 
 import './css/App.scss'
