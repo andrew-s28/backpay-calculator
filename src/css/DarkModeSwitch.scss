@@ -1,0 +1,31 @@
+$toggle-transition-duration: 250ms;
+$size-scale: 1;
+$inactive-label-color: #b9bdc1;
+$inactive-label-color-on-hover: #fcfefe;
+$inactive-label-color-on-active: #cdd1d5;
+$active-label-color: #5b5e62;
+$active-label-color-on-hover: #404346;
+$active-label-color-on-active: #010101;
+$inactive-track-color: #dce0e3;
+$inactive-track-color-on-hover: #fcfefe;
+$inactive-track-color-on-active: #cdd1d5;
+$active-track-color: #404346;
+$active-track-color-on-hover: #2d2f31;
+$active-track-color-on-active: #141516;
+$inactive-thumb-color: #2d2f31;
+$active-thumb-color: #dce0e3;
+$focus-ring-color: rgb(59 130 246 / 0.5);
+
+#dark-mode-switch {
+    button {
+        background-color: rgb(0, 0, 0, 0);
+        border: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        display: block;
+    }
+    button svg { 
+        transition: fill $toggle-transition-duration ease-in-out;
+    }
+}

@@ -1,0 +1,43 @@
+.navbarContainer {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 !important;
+    position: sticky top;
+    top: 0;
+
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: sticky top;
+        top: 0;
+        max-width: 1280px;
+        margin: 0;
+        padding: 2rem;        
+    }
+
+    ul {
+        max-width: 1280px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0.5rem;
+        text-decoration: none;
+
+    }
+}
+
+svg {
+    display: block;
+}
