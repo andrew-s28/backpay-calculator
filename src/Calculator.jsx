@@ -67,7 +67,7 @@ export default function Calculator() {
                 return;
             } else {
                 setBackpayText(
-                    `You can expect roughly $${backpay} in backpay, covering 6 months from September to February. OSU has until March 10th to provide this backpay.`
+                    `You can expect roughly $${backpay} in backpay, covering 6 months from September to February. OSU has until April 10th to provide this backpay.`
                 );
                 return;
             };         
@@ -78,7 +78,7 @@ export default function Calculator() {
                 backpay = Math.round(newSalary * 6 * 1.03 - fallPayInt * 6)
             };
             setBackpayText(
-                `You can expect roughly $${backpay} in backpay, covering 6 months from September to February. OSU has until March 10th to provide this backpay.`
+                `You can expect roughly $${backpay} in backpay, covering 6 months from September to February. OSU has until April 10th to provide this backpay.`
             );
             return;
         }

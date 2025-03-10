@@ -12,7 +12,7 @@ export default function Intro() {
             <p className="introBottom">
                 Enter your monthly gross pay and FTE from the spring 2024 semester,
                 your current monthly gross pay and FTE, and the year you are in your program.
-                The calculator will output the esimated gross pay you are owed by the <b>March 10th deadline</b>.
+                The calculator will output the esimated gross pay you are owed by the <b>April 10th deadline</b>.
             </p>
         </Paper>
     )
